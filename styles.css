@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+	background-color: #5f9982;
+    color: #ece5ce;
+	min-height: 100vh;
+    position: relative;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.perfil img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.contato {
+    flex-grow: 1;
+}
+
+h1 {
+    color: #000;
+}
+
+h2 {
+    color: #000;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    width: calc(50% - 10px);
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+	background-color: #ece5ce;
+	width: 100%;
+    position: absolute;
+    bottom: 0;
+}
